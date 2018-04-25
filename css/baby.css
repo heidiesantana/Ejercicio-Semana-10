@@ -1,0 +1,68 @@
+body {
+	background-color: #f2f2f2;
+}
+
+header h1 {
+	margin-left: 550px;
+}
+
+header img {
+	margin-top: 50px;
+
+}
+
+ul {
+	background-color: #ff8080;
+	height: 40px;
+	opacity: 0.75;
+	margin-top: auto;
+	text-indent: 400px;
+
+}
+
+ul li{
+	display: inline;
+	color: white;
+	font-family: 'Julius Sans One', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 0.5%
+}
+
+section h1{
+	color: #ff6666;
+	font-family: 'Julius Sans One', cursive;
+	font-size: 36px;
+	
+}
+
+section img{
+	width: 500px;
+
+}
+
+section p{
+	font-family: 'Helvetica';
+	margin-top: 20px;
+	color: grey;
+}
+
+footer{
+	background-color: #ff8080;
+	font-family: 'Julius Sans One', cursive;
+	color: grey;
+	font-size: 10px;
+}
+
+footer img{
+	width: 35px;
+}
+
+.social{
+	margin: auto;
+}
+
+.social li{
+	float: left;
+	margin: auto;
+}
