@@ -2,6 +2,10 @@ body {
 	background-color: #f2f2f2;
 }
 
+a{
+	text-decoration: none;
+	color: white;
+}
 header h1 {
 	margin-left: 550px;
 }
@@ -16,7 +20,7 @@ ul {
 	height: 40px;
 	opacity: 0.75;
 	margin-top: auto;
-	text-indent: 400px;
+	text-indent: 300px;
 
 }
 
@@ -26,7 +30,7 @@ ul li{
 	font-family: 'Julius Sans One', sans-serif;
 	text-transform: uppercase;
 	font-size: 18px;
-	padding: 0.5%
+	padding: 1%
 }
 
 .row{
@@ -51,11 +55,12 @@ h2{
 	width: 300px;
 }
 
-footer{
+footer p{
 	background-color: #ff8080;
 	font-family: 'Julius Sans One', cursive;
-	color: grey;
-	font-size: 10px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
 }
 
 footer img{
@@ -68,5 +73,5 @@ footer img{
 
 .social li{
 	float: left;
-	margin: auto;
+	margin-top: 30px;
 }
