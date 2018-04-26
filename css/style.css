@@ -6,7 +6,6 @@ a{
 	text-decoration: none;
 	color: white;
 }
-
 header h1 {
 	margin-left: 550px;
 }
@@ -20,7 +19,9 @@ ul {
 	background-color: #ff8080;
 	height: 40px;
 	opacity: 0.75;
-	text-indent: 300px;
+	margin-top: auto;
+	text-indent: 330px;
+	padding-top: 15px;
 
 }
 
@@ -30,22 +31,22 @@ ul li{
 	font-family: 'Julius Sans One', sans-serif;
 	text-transform: uppercase;
 	font-size: 18px;
-	padding: 1%
+	padding: 10px;
 }
 
-.row{
+.homerow{
 	display: flex;
 	margin-left: 300px;
 	width: 250px;
 }
 
-.row div img{
+.homerow div img{
 	width: 300px;
 	margin-top: 20px;
 }
 
 
-.column{
+.homecolumn{
 	flex: 1;
 	margin: 20px;
 	padding: 20px;
@@ -53,7 +54,7 @@ ul li{
 
 }
 
-.column p{
+.homecolumn p{
 	width: 300px;
 	color: gray;
 	font-family: 'Helvetica';
@@ -62,14 +63,14 @@ ul li{
 
 }
 
-.column h2{
+.homecolumn h2{
 	color: #ff6666;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 24px;
 	text-align: center;
 }
 
-.column h4{
+.homecolumn h4{
 	color: #47d1d1;
 	font-family: 'Julius Sans One', sans-serif;
 }
